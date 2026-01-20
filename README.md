@@ -21,26 +21,28 @@ Make sure you have the following installed:
 
 1. **Clone the repository**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/anantvsingh/Shopzyy.git
     cd Shopzyy
 
 
 2. **Install dependencies**
+    ```bash
     npm install
     # or
     yarn install
 
 3. **iOS Setup**
-
-cd ios
-pod install
-cd ..
+    ```bash
+    cd ios
+    pod install
+    cd ..
 
 If you encounter missing vector icons in iOS, you may need to manually add the vector icons font file.
-Follow this guide: React Native Vector Icons iOS Setup [text](https://www.npmjs.com/package/react-native-vector-icons)
+Follow this guide:  [React Native Vector Icons Setup](https://www.npmjs.com/package/react-native-vector-icons)
 
 4. **Running the App**
 # Android
+```bash
 yarn android
 # or
 npm run android
